@@ -8,15 +8,21 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <link rel="stylesheet" href="assets/css/main.css" />
-   <!-- <link href="assets/css/bootstrap.css" rel="stylesheet">
+     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/ionicons.css" rel="stylesheet">
     <link href="assets/css/fluidbox.min.css" rel="stylesheet">
-    <link href="assets/css/styles.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">-->
+    <!--<link href="assets/css/styles.css" rel="stylesheet">-->
+    <link href="assets/css/responsive.css" rel="stylesheet">
 </head>
 
 <style>
     /*layout.css*/
+
+    .clearfix::after {
+        display: block;
+        content: "";
+        clear: both;
+    }
 
     .fl_right {
         display: block;
@@ -110,6 +116,7 @@
     }
 
     /*Portfolio*/
+
     .portfolio-section .p-item {
         width: 50%;
         padding: 0 15px 0px;
@@ -118,20 +125,45 @@
     .portfolio-section .p-item {
         max-width: 400px;
     }
-    .portfolio-section .p-item{ width: 100%; }
-    .portfolio-section .p-item{ width: 33.333%; padding: 0 7.5px 0px; margin-top: 15px; }
 
-.portfolio-section .p-item a{ display: inline; }
+    .portfolio-section .p-item {
+        width: 100%;
+    }
 
-.portfolio-section .p-item.p-item-2 .img:first-child{ float: left; width: 50%; padding-right: 7.5px; }
+    .portfolio-section .p-item {
+        width: 33.333%;
+        padding: 0 7.5px 0px;
+        margin-top: 15px;
+    }
 
-.portfolio-section .p-item.p-item-2 .img:last-child{ float: right; width: 50%; padding-left: 7.5px; }
-    .portfolio-section .portfolioFilter{ margin-top: 60px; color: #666; }
+    .portfolio-section .p-item a {
+        display: inline;
+    }
 
-.portfolio-section .portfolioFilter a{ margin: 10px 10px 0 0; }
+    .portfolio-section .p-item.p-item-2 .img:first-child {
+        float: left;
+        width: 50%;
+        padding-right: 7.5px;
+    }
 
-.portfolio-section .portfolioFilter a.current{  color: #FFA804; }
+    .portfolio-section .p-item.p-item-2 .img:last-child {
+        float: right;
+        width: 50%;
+        padding-left: 7.5px;
+    }
 
+    .portfolio-section .portfolioFilter {
+        margin-top: 60px;
+        color: #666;
+    }
+
+    .portfolio-section .portfolioFilter a {
+        margin: 10px 10px 0 0;
+    }
+
+    .portfolio-section .portfolioFilter a.current {
+        color: #FFA804;
+    }
 
 </style>
 
@@ -174,7 +206,7 @@
 					<h1><b>IDE AUTOWORKS</b></h1>
 					<p>We Inspire | We Design | We Execute
 				</div>
-                <video autoplay loop muted playsinline src="IDEATUO.mp4"></video>
+                <video autoplay loop muted playsinline src="images/IDEATUO.mp4"></video>
 			</section>
 
     <!--Portfolio-->
@@ -368,14 +400,15 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-    <script src="common-js/jquery-3.2.1.min.js"></script>
-    <script src="common-js/tether.min.js"></script>
-    <script src="common-js/bootstrap.js"></script>
-    <script src="common-js/isotope.pkgd.min.js"></script>
-    <script src="common-js/jquery.waypoints.min.js"></script>
-    <script src="common-js/progressbar.min.js"></script>
-    <script src="common-js/jquery.fluidbox.min.js"></script>
-    <script src="common-js/scripts.js"></script>
+    <script src="assets/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/js/tether.min.js"></script>
+    <script src="assets/js/s/bootstrap.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/progressbar.min.js"></script>
+    <script src="assets/js/jquery.fluidbox.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
 
 </body>
 
