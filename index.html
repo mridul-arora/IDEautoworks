@@ -12,7 +12,7 @@
     <link href="assets/css/ionicons.css" rel="stylesheet">
     <link href="assets/css/fluidbox.min.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
-   <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
 
 </head>
 
@@ -111,11 +111,17 @@
         clear: both;
     }
 
-    h1,h2,h3,
-    p {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    b {
         font-family: "Poppins", sans-serif;
     }
-
+    p{color: white;}
     /*Portfolio*/
 
     .portfolio-section .p-item {
@@ -166,6 +172,15 @@
         color: #FFA804;
     }
 
+    b:hover {
+        text-decoration: none;
+        color: #FFA804;
+    }
+
+    .portfolio-section .portfolioFilter a.current {
+        color: #FFA804;
+    }
+
 </style>
 
 <body class="is-preload">
@@ -189,12 +204,12 @@
                 <div class="fl_right">
                     <ul class="faico clear">
                         <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a class="faicon-pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
-                        <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>
                         <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
                         <li><a class="faicon-google-plus" href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a class="faicon-rss" href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a class="faicon-pinterest" href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <!--<li><a class="faicon-rss" href="#"><i class="fa fa-rss"></i></a></li>
+                        <li><a class="faicon-dribble" href="#"><i class="fa fa-dribbble"></i></a></li>-->
                     </ul>
                 </div>
             </li>
@@ -224,9 +239,12 @@
                 <div class="col-sm-8">
                     <div class="portfolioFilter clearfix margin-b-80">
                         <a href="#" data-filter="*" class="current"><b>ALL</b></a>
-                        <a href="#" data-filter=".web-design"><b>KTM</b></a> <!--web-design is KTM-->
-                        <a href="#" data-filter=".branding"><b>AUDI</b></a> <!--branding is AUDI-->
-                        <a href="#" data-filter=".graphic-design"><b>POLO</b></a> <!--graphic-design is POLO-->
+                        <a href="#" data-filter=".web-design"><b>KTM</b></a>
+                        <!--web-design is KTM-->
+                        <a href="#" data-filter=".branding"><b>AUDI</b></a>
+                        <!--branding is AUDI-->
+                        <a href="#" data-filter=".graphic-design"><b>POLO</b></a>
+                        <!--graphic-design is POLO-->
                     </div>
                     <!-- portfolioFilter -->
                 </div>
@@ -237,61 +255,61 @@
         <!-- container -->
 
         <div class="portfolioContainer">
-<!--branding is AUDI-->
+            <!--branding is AUDI-->
             <div class="p-item branding">
                 <a href="images/audi/1.jpg" data-fluidbox>
 					<img src="images/audi/1.jpg" alt=""></a>
             </div>
-             <div class="p-item branding">
+            <div class="p-item branding">
                 <a href="images/audi/2.jpg" data-fluidbox>
 					<img src="images/audi/2.jpg" alt=""></a>
             </div>
-             <div class="p-item branding">
+            <div class="p-item branding">
                 <a href="images/audi/3.jpg" data-fluidbox>
 					<img src="images/audi/3.jpg" alt=""></a>
             </div>
-             <div class="p-item branding">
+            <div class="p-item branding">
                 <a href="images/audi/4.jpg" data-fluidbox>
 					<img src="images/audi/4.jpg" alt=""></a>
             </div>
-             <div class="p-item branding">
+            <div class="p-item branding">
                 <a href="images/audi/5.jpg" data-fluidbox>
 					<img src="images/audi/5.jpg" alt=""></a>
             </div>
-             <div class="p-item branding">
+            <div class="p-item branding">
                 <a href="images/audi/6.jpg" data-fluidbox>
 					<img src="images/audi/6.jpg" alt=""></a>
             </div>
-             <div class="p-item branding">
+            <div class="p-item branding">
                 <a href="images/audi/7.jpg" data-fluidbox>
 					<img src="images/audi/7.jpg" alt=""></a>
             </div>
-<!--ending of Audi-->
+            <!--ending of Audi-->
 
-<!--web-design is KTM-->
-             <div class="p-item web-design">
+            <!--web-design is KTM-->
+            <div class="p-item web-design">
                 <a href="images/KTM/1.jpg" data-fluidbox>
 					<img src="images/KTM/1.jpg" alt=""></a>
             </div>
-             <div class="p-item web-design">
+            <div class="p-item web-design">
                 <a href="images/KTM/2.jpg" data-fluidbox>
 					<img src="images/KTM/2.jpg" alt=""></a>
             </div>
-             <div class="p-item web-design">
+            <div class="p-item web-design">
                 <a href="images/KTM/3.jpg" data-fluidbox>
 					<img src="images/KTM/3.jpg" alt=""></a>
             </div>
-             <div class="p-item web-design">
+            <div class="p-item web-design">
                 <a href="images/KTM/4.jpg" data-fluidbox>
 					<img src="images/KTM/4.jpg" alt=""></a>
             </div>
-             <div class="p-item web-design">
+            <div class="p-item web-design">
                 <a href="images/KTM/5.jpg" data-fluidbox>
 					<img src="images/KTM/5.jpg" alt=""></a>
             </div>
-<!--ending of KTM-->
+            <!--ending of KTM-->
 
-<!--graphic-design is POLO-->
+            <!--graphic-design is POLO-->
             <div class="p-item graphic-design">
                 <a href="images/polo/1.jpg" data-fluidbox>
 					<img src="images/polo/1.jpg" alt=""></a>
@@ -316,7 +334,7 @@
                 <a href="images/polo/6.jpg" data-fluidbox>
 					<img src="images/polo/6.jpg" alt=""></a>
             </div>
-<!--ending of POLO
+            <!--ending of POLO
 
             <!--p-item-2-->
             <!--<div class="p-item p-item-2 graphic-design">
@@ -332,7 +350,6 @@
     </section>
     <!-- portfolio-section -->
 
-
     <!-- CTA -->
     <section id="cta" class="wrapper">
         <div class="inner">
@@ -340,7 +357,6 @@
             <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing. Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing sed feugiat eu faucibus. Integer ac sed amet praesent. Nunc lacinia ante nunc ac gravida.</p>
         </div>
     </section>
-
 
     <!-- Testimonials
 			<section class="wrapper">
@@ -395,6 +411,7 @@
 			</section>
 
 -->
+
     <!-- Footer -->
     <footer id="footer">
         <div class="inner">
