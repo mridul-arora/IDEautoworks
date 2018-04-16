@@ -64,14 +64,6 @@ b{ font-weight: 600; }
 
 img{ width: 100%; }
 
-li{ list-style: none; display: inline-block; }
-
-span{ display: inline-block; }
-
-button{ outline: 0; border: 0; background: none; cursor: pointer; }
-
-.icon{ font-size: 1.1em; display: inline-block; line-height: inherit; }
-
 [class^="icon-"]:before, [class*=" icon-"]:before{ line-height: inherit; }
 
 b.max-bold{ font-weight: 700; }
